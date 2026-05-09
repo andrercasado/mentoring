@@ -1,0 +1,313 @@
+IssueKey,IssueType,Summary,Description,Priority,Status,Assignee,Reporter,EpicLink,Sprint,StoryPoints,Labels,Created,DueDate,OriginalEstimate,TimeSpent,Components
+EPIC-1,Epic,Cadastro e Autenticacao,Sistema de login cadastro e gestao de perfis para alunos professores e admin,Highest,In Progress,Maria Silva,Maria Silva,,,,epic academic-app,2026-01-06,2026-03-31,,,Planning
+EPIC-2,Epic,Registro de Presenca,Funcionalidades para marcar presenca via QR Code geolocalizacao e manual,Highest,In Progress,Maria Silva,Maria Silva,,,,epic academic-app,2026-01-06,2026-03-31,,,Planning
+EPIC-3,Epic,Gestao de Turmas e Disciplinas,CRUD de turmas disciplinas horarios e vinculacao aluno-turma,High,In Progress,Maria Silva,Maria Silva,,,,epic academic-app,2026-01-06,2026-03-31,,,Planning
+EPIC-4,Epic,Relatorios e Dashboard,Visualizacao de frequencia relatorios consolidados e analytics,Medium,To Do,Maria Silva,Maria Silva,,,,epic academic-app,2026-01-06,2026-03-31,,,Planning
+EPIC-5,Epic,Notificacoes e Alertas,Sistema de notificacoes push email e SMS para faltas e avisos,Medium,To Do,Maria Silva,Maria Silva,,,,epic academic-app,2026-01-06,2026-03-31,,,Planning
+EPIC-6,Epic,Integracoes Externas,Integracao com sistemas academicos SIA Moodle e exportacao dados,Low,To Do,Maria Silva,Maria Silva,,,,epic academic-app,2026-01-06,2026-03-31,,,Planning
+FREQ-1,Story,Login com email e senha,User story: Login com email e senha,Highest,In Progress,Beatriz Costa,Maria Silva,EPIC-1,Sprint 1,3,sprint-1 epic-1,2025-12-30,2026-01-19,24h,,Module-1
+FREQ-2,Task,Design UI/UX for Login com email e senha,Task: Design UI/UX,Highest,Done,Juliana Souza,Joao Santos,EPIC-1,Sprint 1,,task design-ui/ux,2025-12-31,2026-01-19,4h,3h,Module-1
+FREQ-3,Task,Backend Implementation for Login com email e senha,Task: Backend Implementation,Highest,In Progress,Carlos Mendes,Joao Santos,EPIC-1,Sprint 1,,task backend-implementation,2025-12-31,2026-01-19,7h,,Module-1
+FREQ-4,Task,Frontend Web Implementation for Login com email e senha,Task: Frontend Web Implementation,Highest,Done,Beatriz Costa,Joao Santos,EPIC-1,Sprint 1,,task frontend-web-implementation,2025-12-31,2026-01-19,6h,5h,Module-1
+FREQ-5,Task,Unit Tests for Login com email e senha,Task: Unit Tests,Highest,Done,Rafael Lima,Joao Santos,EPIC-1,Sprint 1,,task unit-tests,2025-12-31,2026-01-19,3h,3h,Module-1
+FREQ-6,Task,Code Review for Login com email e senha,Task: Code Review,Highest,To Do,Ana Oliveira,Joao Santos,EPIC-1,Sprint 1,,task code-review,2025-12-31,2026-01-19,4h,,Module-1
+FREQ-7,Story,Recuperacao de senha por email,User story: Recuperacao de senha por email,High,Done,Carlos Mendes,Maria Silva,EPIC-1,Sprint 1,2,sprint-1 epic-1,2025-12-27,2026-01-19,16h,12h,Module-1
+FREQ-8,Task,Design UI/UX for Recuperacao de senha por email,Task: Design UI/UX,High,Done,Juliana Souza,Joao Santos,EPIC-1,Sprint 1,,task design-ui/ux,2025-12-28,2026-01-19,4h,3h,Module-1
+FREQ-9,Task,Backend Implementation for Recuperacao de senha por email,Task: Backend Implementation,High,Done,Carlos Mendes,Joao Santos,EPIC-1,Sprint 1,,task backend-implementation,2025-12-28,2026-01-19,4h,4h,Module-1
+FREQ-10,Task,Frontend Web Implementation for Recuperacao de senha por email,Task: Frontend Web Implementation,High,Done,Beatriz Costa,Joao Santos,EPIC-1,Sprint 1,,task frontend-web-implementation,2025-12-28,2026-01-19,4h,3h,Module-1
+FREQ-11,Task,Unit Tests for Recuperacao de senha por email,Task: Unit Tests,High,Done,Rafael Lima,Joao Santos,EPIC-1,Sprint 1,,task unit-tests,2025-12-28,2026-01-19,2h,2h,Module-1
+FREQ-12,Task,Code Review for Recuperacao de senha por email,Task: Code Review,High,Done,Ana Oliveira,Joao Santos,EPIC-1,Sprint 1,,task code-review,2025-12-28,2026-01-19,4h,3h,Module-1
+FREQ-13,Story,Login social Google Facebook,User story: Login social Google Facebook,Medium,Done,Carlos Mendes,Maria Silva,EPIC-1,Sprint 1,5,sprint-1 epic-1,2026-01-01,2026-01-19,40h,30h,Module-1
+FREQ-14,Task,Design UI/UX for Login social Google Facebook,Task: Design UI/UX,Medium,Done,Juliana Souza,Joao Santos,EPIC-1,Sprint 1,,task design-ui/ux,2026-01-02,2026-01-19,4h,3h,Module-1
+FREQ-15,Task,Backend Implementation for Login social Google Facebook,Task: Backend Implementation,Medium,Done,Carlos Mendes,Joao Santos,EPIC-1,Sprint 1,,task backend-implementation,2026-01-02,2026-01-19,12h,10h,Module-1
+FREQ-16,Task,Frontend Web Implementation for Login social Google Facebook,Task: Frontend Web Implementation,Medium,Done,Beatriz Costa,Joao Santos,EPIC-1,Sprint 1,,task frontend-web-implementation,2026-01-02,2026-01-19,10h,8h,Module-1
+FREQ-17,Task,Mobile Implementation for Login social Google Facebook,Task: Mobile Implementation,Medium,Done,Pedro Almeida,Joao Santos,EPIC-1,Sprint 1,,task mobile-implementation,2026-01-02,2026-01-19,10h,8h,Module-1
+FREQ-18,Task,Unit Tests for Login social Google Facebook,Task: Unit Tests,Medium,Done,Rafael Lima,Joao Santos,EPIC-1,Sprint 1,,task unit-tests,2026-01-02,2026-01-19,6h,5h,Module-1
+FREQ-19,Task,E2E Tests for Login social Google Facebook,Task: E2E Tests,Medium,Done,Rafael Lima,Joao Santos,EPIC-1,Sprint 1,,task e2e-tests,2026-01-02,2026-01-19,6h,5h,Module-1
+FREQ-20,Task,Code Review for Login social Google Facebook,Task: Code Review,Medium,Done,Ana Oliveira,Joao Santos,EPIC-1,Sprint 1,,task code-review,2026-01-02,2026-01-19,4h,3h,Module-1
+FREQ-21,Story,Cadastro de novo usuario,User story: Cadastro de novo usuario,Highest,Done,Beatriz Costa,Maria Silva,EPIC-1,Sprint 1,3,sprint-1 epic-1,2026-01-03,2026-01-19,24h,18h,Module-1
+FREQ-22,Task,Design UI/UX for Cadastro de novo usuario,Task: Design UI/UX,Highest,Done,Juliana Souza,Joao Santos,EPIC-1,Sprint 1,,task design-ui/ux,2026-01-04,2026-01-19,4h,3h,Module-1
+FREQ-23,Task,Backend Implementation for Cadastro de novo usuario,Task: Backend Implementation,Highest,Done,Carlos Mendes,Joao Santos,EPIC-1,Sprint 1,,task backend-implementation,2026-01-04,2026-01-19,7h,6h,Module-1
+FREQ-24,Task,Frontend Web Implementation for Cadastro de novo usuario,Task: Frontend Web Implementation,Highest,Done,Beatriz Costa,Joao Santos,EPIC-1,Sprint 1,,task frontend-web-implementation,2026-01-04,2026-01-19,6h,5h,Module-1
+FREQ-25,Task,Unit Tests for Cadastro de novo usuario,Task: Unit Tests,Highest,Done,Rafael Lima,Joao Santos,EPIC-1,Sprint 1,,task unit-tests,2026-01-04,2026-01-19,3h,3h,Module-1
+FREQ-26,Task,Code Review for Cadastro de novo usuario,Task: Code Review,Highest,Done,Ana Oliveira,Joao Santos,EPIC-1,Sprint 1,,task code-review,2026-01-04,2026-01-19,4h,3h,Module-1
+FREQ-27,Story,Perfil de aluno com foto e dados,User story: Perfil de aluno com foto e dados,High,Done,Pedro Almeida,Maria Silva,EPIC-1,Sprint 1,3,sprint-1 epic-1,2025-12-28,2026-01-19,24h,18h,Module-1
+FREQ-28,Task,Design UI/UX for Perfil de aluno com foto e dados,Task: Design UI/UX,High,Done,Juliana Souza,Joao Santos,EPIC-1,Sprint 1,,task design-ui/ux,2025-12-29,2026-01-19,4h,3h,Module-1
+FREQ-29,Task,Backend Implementation for Perfil de aluno com foto e dados,Task: Backend Implementation,High,Done,Carlos Mendes,Joao Santos,EPIC-1,Sprint 1,,task backend-implementation,2025-12-29,2026-01-19,7h,6h,Module-1
+FREQ-30,Task,Frontend Web Implementation for Perfil de aluno com foto e dados,Task: Frontend Web Implementation,High,Done,Beatriz Costa,Joao Santos,EPIC-1,Sprint 1,,task frontend-web-implementation,2025-12-29,2026-01-19,6h,5h,Module-1
+FREQ-31,Task,Unit Tests for Perfil de aluno com foto e dados,Task: Unit Tests,High,Done,Rafael Lima,Joao Santos,EPIC-1,Sprint 1,,task unit-tests,2025-12-29,2026-01-19,3h,3h,Module-1
+FREQ-32,Task,Code Review for Perfil de aluno com foto e dados,Task: Code Review,High,Done,Ana Oliveira,Joao Santos,EPIC-1,Sprint 1,,task code-review,2025-12-29,2026-01-19,4h,3h,Module-1
+FREQ-33,Story,Perfil de professor com disciplinas,User story: Perfil de professor com disciplinas,High,In Progress,Pedro Almeida,Maria Silva,EPIC-1,Sprint 1,3,sprint-1 epic-1,2026-01-02,2026-01-19,24h,,Module-1
+FREQ-34,Task,Design UI/UX for Perfil de professor com disciplinas,Task: Design UI/UX,High,To Do,Juliana Souza,Joao Santos,EPIC-1,Sprint 1,,task design-ui/ux,2026-01-03,2026-01-19,4h,,Module-1
+FREQ-35,Task,Backend Implementation for Perfil de professor com disciplinas,Task: Backend Implementation,High,To Do,Carlos Mendes,Joao Santos,EPIC-1,Sprint 1,,task backend-implementation,2026-01-03,2026-01-19,7h,,Module-1
+FREQ-36,Task,Frontend Web Implementation for Perfil de professor com disciplinas,Task: Frontend Web Implementation,High,To Do,Beatriz Costa,Joao Santos,EPIC-1,Sprint 1,,task frontend-web-implementation,2026-01-03,2026-01-19,6h,,Module-1
+FREQ-37,Task,Unit Tests for Perfil de professor com disciplinas,Task: Unit Tests,High,In Progress,Rafael Lima,Joao Santos,EPIC-1,Sprint 1,,task unit-tests,2026-01-03,2026-01-19,3h,,Module-1
+FREQ-38,Task,Code Review for Perfil de professor com disciplinas,Task: Code Review,High,In Progress,Ana Oliveira,Joao Santos,EPIC-1,Sprint 1,,task code-review,2026-01-03,2026-01-19,4h,,Module-1
+FREQ-39,Story,Perfil admin com permissoes,User story: Perfil admin com permissoes,Medium,Done,Carlos Mendes,Maria Silva,EPIC-1,Sprint 1,5,sprint-1 epic-1,2025-12-29,2026-01-19,40h,30h,Module-1
+FREQ-40,Task,Design UI/UX for Perfil admin com permissoes,Task: Design UI/UX,Medium,Done,Juliana Souza,Joao Santos,EPIC-1,Sprint 1,,task design-ui/ux,2025-12-30,2026-01-19,4h,3h,Module-1
+FREQ-41,Task,Backend Implementation for Perfil admin com permissoes,Task: Backend Implementation,Medium,Done,Carlos Mendes,Joao Santos,EPIC-1,Sprint 1,,task backend-implementation,2025-12-30,2026-01-19,12h,10h,Module-1
+FREQ-42,Task,Frontend Web Implementation for Perfil admin com permissoes,Task: Frontend Web Implementation,Medium,Done,Beatriz Costa,Joao Santos,EPIC-1,Sprint 1,,task frontend-web-implementation,2025-12-30,2026-01-19,10h,8h,Module-1
+FREQ-43,Task,Mobile Implementation for Perfil admin com permissoes,Task: Mobile Implementation,Medium,Done,Pedro Almeida,Joao Santos,EPIC-1,Sprint 1,,task mobile-implementation,2025-12-30,2026-01-19,10h,8h,Module-1
+FREQ-44,Task,Unit Tests for Perfil admin com permissoes,Task: Unit Tests,Medium,Done,Rafael Lima,Joao Santos,EPIC-1,Sprint 1,,task unit-tests,2025-12-30,2026-01-19,6h,5h,Module-1
+FREQ-45,Task,E2E Tests for Perfil admin com permissoes,Task: E2E Tests,Medium,Done,Rafael Lima,Joao Santos,EPIC-1,Sprint 1,,task e2e-tests,2025-12-30,2026-01-19,6h,5h,Module-1
+FREQ-46,Task,Code Review for Perfil admin com permissoes,Task: Code Review,Medium,Done,Ana Oliveira,Joao Santos,EPIC-1,Sprint 1,,task code-review,2025-12-30,2026-01-19,4h,3h,Module-1
+FREQ-47,Story,Autenticacao 2FA via SMS,User story: Autenticacao 2FA via SMS,Low,In Progress,Carlos Mendes,Maria Silva,EPIC-1,Sprint 1,8,sprint-1 epic-1,2025-12-30,2026-01-19,64h,,Module-1
+FREQ-48,Task,Design UI/UX for Autenticacao 2FA via SMS,Task: Design UI/UX,Low,Done,Juliana Souza,Joao Santos,EPIC-1,Sprint 1,,task design-ui/ux,2025-12-31,2026-01-19,4h,3h,Module-1
+FREQ-49,Task,Backend Implementation for Autenticacao 2FA via SMS,Task: Backend Implementation,Low,In Progress,Carlos Mendes,Joao Santos,EPIC-1,Sprint 1,,task backend-implementation,2025-12-31,2026-01-19,19h,,Module-1
+FREQ-50,Task,Frontend Web Implementation for Autenticacao 2FA via SMS,Task: Frontend Web Implementation,Low,To Do,Beatriz Costa,Joao Santos,EPIC-1,Sprint 1,,task frontend-web-implementation,2025-12-31,2026-01-19,16h,,Module-1
+FREQ-51,Task,Mobile Implementation for Autenticacao 2FA via SMS,Task: Mobile Implementation,Low,Done,Pedro Almeida,Joao Santos,EPIC-1,Sprint 1,,task mobile-implementation,2025-12-31,2026-01-19,16h,14h,Module-1
+FREQ-52,Task,Unit Tests for Autenticacao 2FA via SMS,Task: Unit Tests,Low,Done,Rafael Lima,Joao Santos,EPIC-1,Sprint 1,,task unit-tests,2025-12-31,2026-01-19,9h,8h,Module-1
+FREQ-53,Task,E2E Tests for Autenticacao 2FA via SMS,Task: E2E Tests,Low,In Progress,Rafael Lima,Joao Santos,EPIC-1,Sprint 1,,task e2e-tests,2025-12-31,2026-01-19,9h,,Module-1
+FREQ-54,Task,Code Review for Autenticacao 2FA via SMS,Task: Code Review,Low,To Do,Ana Oliveira,Joao Santos,EPIC-1,Sprint 1,,task code-review,2025-12-31,2026-01-19,4h,,Module-1
+FREQ-55,Task,Documentation for Autenticacao 2FA via SMS,Task: Documentation,Low,In Progress,Joao Santos,Joao Santos,EPIC-1,Sprint 1,,task documentation,2025-12-31,2026-01-19,8h,,Module-1
+FREQ-56,Story,Gerar QR Code por aula,User story: Gerar QR Code por aula,Highest,Done,Pedro Almeida,Maria Silva,EPIC-2,Sprint 2,5,sprint-2 epic-2,2026-01-10,2026-02-02,40h,30h,Module-2
+FREQ-57,Task,Design UI/UX for Gerar QR Code por aula,Task: Design UI/UX,Highest,Done,Juliana Souza,Joao Santos,EPIC-2,Sprint 2,,task design-ui/ux,2026-01-11,2026-02-02,4h,3h,Module-2
+FREQ-58,Task,Backend Implementation for Gerar QR Code por aula,Task: Backend Implementation,Highest,Done,Carlos Mendes,Joao Santos,EPIC-2,Sprint 2,,task backend-implementation,2026-01-11,2026-02-02,12h,10h,Module-2
+FREQ-59,Task,Frontend Web Implementation for Gerar QR Code por aula,Task: Frontend Web Implementation,Highest,Done,Beatriz Costa,Joao Santos,EPIC-2,Sprint 2,,task frontend-web-implementation,2026-01-11,2026-02-02,10h,8h,Module-2
+FREQ-60,Task,Mobile Implementation for Gerar QR Code por aula,Task: Mobile Implementation,Highest,Done,Pedro Almeida,Joao Santos,EPIC-2,Sprint 2,,task mobile-implementation,2026-01-11,2026-02-02,10h,8h,Module-2
+FREQ-61,Task,Unit Tests for Gerar QR Code por aula,Task: Unit Tests,Highest,Done,Rafael Lima,Joao Santos,EPIC-2,Sprint 2,,task unit-tests,2026-01-11,2026-02-02,6h,5h,Module-2
+FREQ-62,Task,E2E Tests for Gerar QR Code por aula,Task: E2E Tests,Highest,Done,Rafael Lima,Joao Santos,EPIC-2,Sprint 2,,task e2e-tests,2026-01-11,2026-02-02,6h,5h,Module-2
+FREQ-63,Task,Code Review for Gerar QR Code por aula,Task: Code Review,Highest,Done,Ana Oliveira,Joao Santos,EPIC-2,Sprint 2,,task code-review,2026-01-11,2026-02-02,4h,3h,Module-2
+FREQ-64,Story,Escanear QR Code para presenca,User story: Escanear QR Code para presenca,Highest,In Progress,Pedro Almeida,Maria Silva,EPIC-2,Sprint 2,5,sprint-2 epic-2,2026-01-14,2026-02-02,40h,,Module-2
+FREQ-65,Task,Design UI/UX for Escanear QR Code para presenca,Task: Design UI/UX,Highest,To Do,Juliana Souza,Joao Santos,EPIC-2,Sprint 2,,task design-ui/ux,2026-01-15,2026-02-02,4h,,Module-2
+FREQ-66,Task,Backend Implementation for Escanear QR Code para presenca,Task: Backend Implementation,Highest,Done,Carlos Mendes,Joao Santos,EPIC-2,Sprint 2,,task backend-implementation,2026-01-15,2026-02-02,12h,10h,Module-2
+FREQ-67,Task,Frontend Web Implementation for Escanear QR Code para presenca,Task: Frontend Web Implementation,Highest,To Do,Beatriz Costa,Joao Santos,EPIC-2,Sprint 2,,task frontend-web-implementation,2026-01-15,2026-02-02,10h,,Module-2
+FREQ-68,Task,Mobile Implementation for Escanear QR Code para presenca,Task: Mobile Implementation,Highest,To Do,Pedro Almeida,Joao Santos,EPIC-2,Sprint 2,,task mobile-implementation,2026-01-15,2026-02-02,10h,,Module-2
+FREQ-69,Task,Unit Tests for Escanear QR Code para presenca,Task: Unit Tests,Highest,To Do,Rafael Lima,Joao Santos,EPIC-2,Sprint 2,,task unit-tests,2026-01-15,2026-02-02,6h,,Module-2
+FREQ-70,Task,E2E Tests for Escanear QR Code para presenca,Task: E2E Tests,Highest,To Do,Rafael Lima,Joao Santos,EPIC-2,Sprint 2,,task e2e-tests,2026-01-15,2026-02-02,6h,,Module-2
+FREQ-71,Task,Code Review for Escanear QR Code para presenca,Task: Code Review,Highest,To Do,Ana Oliveira,Joao Santos,EPIC-2,Sprint 2,,task code-review,2026-01-15,2026-02-02,4h,,Module-2
+FREQ-72,Story,Validacao de geolocalizacao,User story: Validacao de geolocalizacao,High,Done,Beatriz Costa,Maria Silva,EPIC-2,Sprint 2,8,sprint-2 epic-2,2026-01-16,2026-02-02,64h,48h,Module-2
+FREQ-73,Task,Design UI/UX for Validacao de geolocalizacao,Task: Design UI/UX,High,Done,Juliana Souza,Joao Santos,EPIC-2,Sprint 2,,task design-ui/ux,2026-01-17,2026-02-02,4h,3h,Module-2
+FREQ-74,Task,Backend Implementation for Validacao de geolocalizacao,Task: Backend Implementation,High,Done,Carlos Mendes,Joao Santos,EPIC-2,Sprint 2,,task backend-implementation,2026-01-17,2026-02-02,19h,16h,Module-2
+FREQ-75,Task,Frontend Web Implementation for Validacao de geolocalizacao,Task: Frontend Web Implementation,High,Done,Beatriz Costa,Joao Santos,EPIC-2,Sprint 2,,task frontend-web-implementation,2026-01-17,2026-02-02,16h,14h,Module-2
+FREQ-76,Task,Mobile Implementation for Validacao de geolocalizacao,Task: Mobile Implementation,High,Done,Pedro Almeida,Joao Santos,EPIC-2,Sprint 2,,task mobile-implementation,2026-01-17,2026-02-02,16h,14h,Module-2
+FREQ-77,Task,Unit Tests for Validacao de geolocalizacao,Task: Unit Tests,High,Done,Rafael Lima,Joao Santos,EPIC-2,Sprint 2,,task unit-tests,2026-01-17,2026-02-02,9h,8h,Module-2
+FREQ-78,Task,E2E Tests for Validacao de geolocalizacao,Task: E2E Tests,High,Done,Rafael Lima,Joao Santos,EPIC-2,Sprint 2,,task e2e-tests,2026-01-17,2026-02-02,9h,8h,Module-2
+FREQ-79,Task,Code Review for Validacao de geolocalizacao,Task: Code Review,High,Done,Ana Oliveira,Joao Santos,EPIC-2,Sprint 2,,task code-review,2026-01-17,2026-02-02,4h,3h,Module-2
+FREQ-80,Task,Documentation for Validacao de geolocalizacao,Task: Documentation,High,Done,Joao Santos,Joao Santos,EPIC-2,Sprint 2,,task documentation,2026-01-17,2026-02-02,8h,7h,Module-2
+FREQ-81,Story,Registro manual pelo professor,User story: Registro manual pelo professor,High,Done,Pedro Almeida,Maria Silva,EPIC-2,Sprint 2,3,sprint-2 epic-2,2026-01-14,2026-02-02,24h,18h,Module-2
+FREQ-82,Task,Design UI/UX for Registro manual pelo professor,Task: Design UI/UX,High,Done,Juliana Souza,Joao Santos,EPIC-2,Sprint 2,,task design-ui/ux,2026-01-15,2026-02-02,4h,3h,Module-2
+FREQ-83,Task,Backend Implementation for Registro manual pelo professor,Task: Backend Implementation,High,Done,Carlos Mendes,Joao Santos,EPIC-2,Sprint 2,,task backend-implementation,2026-01-15,2026-02-02,7h,6h,Module-2
+FREQ-84,Task,Frontend Web Implementation for Registro manual pelo professor,Task: Frontend Web Implementation,High,Done,Beatriz Costa,Joao Santos,EPIC-2,Sprint 2,,task frontend-web-implementation,2026-01-15,2026-02-02,6h,5h,Module-2
+FREQ-85,Task,Unit Tests for Registro manual pelo professor,Task: Unit Tests,High,Done,Rafael Lima,Joao Santos,EPIC-2,Sprint 2,,task unit-tests,2026-01-15,2026-02-02,3h,3h,Module-2
+FREQ-86,Task,Code Review for Registro manual pelo professor,Task: Code Review,High,Done,Ana Oliveira,Joao Santos,EPIC-2,Sprint 2,,task code-review,2026-01-15,2026-02-02,4h,3h,Module-2
+FREQ-87,Story,Historico de presencas do aluno,User story: Historico de presencas do aluno,Medium,Done,Pedro Almeida,Maria Silva,EPIC-2,Sprint 2,5,sprint-2 epic-2,2026-01-10,2026-02-02,40h,30h,Module-2
+FREQ-88,Task,Design UI/UX for Historico de presencas do aluno,Task: Design UI/UX,Medium,Done,Juliana Souza,Joao Santos,EPIC-2,Sprint 2,,task design-ui/ux,2026-01-11,2026-02-02,4h,3h,Module-2
+FREQ-89,Task,Backend Implementation for Historico de presencas do aluno,Task: Backend Implementation,Medium,Done,Carlos Mendes,Joao Santos,EPIC-2,Sprint 2,,task backend-implementation,2026-01-11,2026-02-02,12h,10h,Module-2
+FREQ-90,Task,Frontend Web Implementation for Historico de presencas do aluno,Task: Frontend Web Implementation,Medium,Done,Beatriz Costa,Joao Santos,EPIC-2,Sprint 2,,task frontend-web-implementation,2026-01-11,2026-02-02,10h,8h,Module-2
+FREQ-91,Task,Mobile Implementation for Historico de presencas do aluno,Task: Mobile Implementation,Medium,Done,Pedro Almeida,Joao Santos,EPIC-2,Sprint 2,,task mobile-implementation,2026-01-11,2026-02-02,10h,8h,Module-2
+FREQ-92,Task,Unit Tests for Historico de presencas do aluno,Task: Unit Tests,Medium,Done,Rafael Lima,Joao Santos,EPIC-2,Sprint 2,,task unit-tests,2026-01-11,2026-02-02,6h,5h,Module-2
+FREQ-93,Task,E2E Tests for Historico de presencas do aluno,Task: E2E Tests,Medium,Done,Rafael Lima,Joao Santos,EPIC-2,Sprint 2,,task e2e-tests,2026-01-11,2026-02-02,6h,5h,Module-2
+FREQ-94,Task,Code Review for Historico de presencas do aluno,Task: Code Review,Medium,Done,Ana Oliveira,Joao Santos,EPIC-2,Sprint 2,,task code-review,2026-01-11,2026-02-02,4h,3h,Module-2
+FREQ-95,Story,Edicao de presenca com justificativa,User story: Edicao de presenca com justificativa,Medium,Done,Pedro Almeida,Maria Silva,EPIC-2,Sprint 2,3,sprint-2 epic-2,2026-01-12,2026-02-02,24h,18h,Module-2
+FREQ-96,Task,Design UI/UX for Edicao de presenca com justificativa,Task: Design UI/UX,Medium,Done,Juliana Souza,Joao Santos,EPIC-2,Sprint 2,,task design-ui/ux,2026-01-13,2026-02-02,4h,3h,Module-2
+FREQ-97,Task,Backend Implementation for Edicao de presenca com justificativa,Task: Backend Implementation,Medium,Done,Carlos Mendes,Joao Santos,EPIC-2,Sprint 2,,task backend-implementation,2026-01-13,2026-02-02,7h,6h,Module-2
+FREQ-98,Task,Frontend Web Implementation for Edicao de presenca com justificativa,Task: Frontend Web Implementation,Medium,Done,Beatriz Costa,Joao Santos,EPIC-2,Sprint 2,,task frontend-web-implementation,2026-01-13,2026-02-02,6h,5h,Module-2
+FREQ-99,Task,Unit Tests for Edicao de presenca com justificativa,Task: Unit Tests,Medium,Done,Rafael Lima,Joao Santos,EPIC-2,Sprint 2,,task unit-tests,2026-01-13,2026-02-02,3h,3h,Module-2
+FREQ-100,Task,Code Review for Edicao de presenca com justificativa,Task: Code Review,Medium,Done,Ana Oliveira,Joao Santos,EPIC-2,Sprint 2,,task code-review,2026-01-13,2026-02-02,4h,3h,Module-2
+FREQ-101,Story,Timeout de QR Code,User story: Timeout de QR Code,High,Done,Pedro Almeida,Maria Silva,EPIC-2,Sprint 2,2,sprint-2 epic-2,2026-01-17,2026-02-02,16h,12h,Module-2
+FREQ-102,Task,Design UI/UX for Timeout de QR Code,Task: Design UI/UX,High,Done,Juliana Souza,Joao Santos,EPIC-2,Sprint 2,,task design-ui/ux,2026-01-18,2026-02-02,4h,3h,Module-2
+FREQ-103,Task,Backend Implementation for Timeout de QR Code,Task: Backend Implementation,High,Done,Carlos Mendes,Joao Santos,EPIC-2,Sprint 2,,task backend-implementation,2026-01-18,2026-02-02,4h,4h,Module-2
+FREQ-104,Task,Frontend Web Implementation for Timeout de QR Code,Task: Frontend Web Implementation,High,Done,Beatriz Costa,Joao Santos,EPIC-2,Sprint 2,,task frontend-web-implementation,2026-01-18,2026-02-02,4h,3h,Module-2
+FREQ-105,Task,Unit Tests for Timeout de QR Code,Task: Unit Tests,High,Done,Rafael Lima,Joao Santos,EPIC-2,Sprint 2,,task unit-tests,2026-01-18,2026-02-02,2h,2h,Module-2
+FREQ-106,Task,Code Review for Timeout de QR Code,Task: Code Review,High,Done,Ana Oliveira,Joao Santos,EPIC-2,Sprint 2,,task code-review,2026-01-18,2026-02-02,4h,3h,Module-2
+FREQ-107,Story,Reconhecimento facial,User story: Reconhecimento facial,Low,To Do,Carlos Mendes,Maria Silva,EPIC-2,Sprint 3,13,sprint-3 epic-2,2026-01-31,2026-02-16,104h,,Module-2
+FREQ-108,Task,Design UI/UX for Reconhecimento facial,Task: Design UI/UX,Low,To Do,Juliana Souza,Joao Santos,EPIC-2,Sprint 3,,task design-ui/ux,2026-02-01,2026-02-16,4h,,Module-2
+FREQ-109,Task,Backend Implementation for Reconhecimento facial,Task: Backend Implementation,Low,To Do,Carlos Mendes,Joao Santos,EPIC-2,Sprint 3,,task backend-implementation,2026-02-01,2026-02-16,31h,,Module-2
+FREQ-110,Task,Frontend Web Implementation for Reconhecimento facial,Task: Frontend Web Implementation,Low,To Do,Beatriz Costa,Joao Santos,EPIC-2,Sprint 3,,task frontend-web-implementation,2026-02-01,2026-02-16,26h,,Module-2
+FREQ-111,Task,Mobile Implementation for Reconhecimento facial,Task: Mobile Implementation,Low,To Do,Pedro Almeida,Joao Santos,EPIC-2,Sprint 3,,task mobile-implementation,2026-02-01,2026-02-16,26h,,Module-2
+FREQ-112,Task,Unit Tests for Reconhecimento facial,Task: Unit Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-2,Sprint 3,,task unit-tests,2026-02-01,2026-02-16,15h,,Module-2
+FREQ-113,Task,E2E Tests for Reconhecimento facial,Task: E2E Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-2,Sprint 3,,task e2e-tests,2026-02-01,2026-02-16,15h,,Module-2
+FREQ-114,Task,Code Review for Reconhecimento facial,Task: Code Review,Low,To Do,Ana Oliveira,Joao Santos,EPIC-2,Sprint 3,,task code-review,2026-02-01,2026-02-16,4h,,Module-2
+FREQ-115,Task,Documentation for Reconhecimento facial,Task: Documentation,Low,To Do,Joao Santos,Joao Santos,EPIC-2,Sprint 3,,task documentation,2026-02-01,2026-02-16,8h,,Module-2
+FREQ-116,Story,Cadastro de disciplinas,User story: Cadastro de disciplinas,High,To Do,Pedro Almeida,Maria Silva,EPIC-3,Sprint 3,3,sprint-3 epic-3,2026-01-27,2026-02-16,24h,,Module-3
+FREQ-117,Task,Design UI/UX for Cadastro de disciplinas,Task: Design UI/UX,High,To Do,Juliana Souza,Joao Santos,EPIC-3,Sprint 3,,task design-ui/ux,2026-01-28,2026-02-16,4h,,Module-3
+FREQ-118,Task,Backend Implementation for Cadastro de disciplinas,Task: Backend Implementation,High,To Do,Carlos Mendes,Joao Santos,EPIC-3,Sprint 3,,task backend-implementation,2026-01-28,2026-02-16,7h,,Module-3
+FREQ-119,Task,Frontend Web Implementation for Cadastro de disciplinas,Task: Frontend Web Implementation,High,To Do,Beatriz Costa,Joao Santos,EPIC-3,Sprint 3,,task frontend-web-implementation,2026-01-28,2026-02-16,6h,,Module-3
+FREQ-120,Task,Unit Tests for Cadastro de disciplinas,Task: Unit Tests,High,To Do,Rafael Lima,Joao Santos,EPIC-3,Sprint 3,,task unit-tests,2026-01-28,2026-02-16,3h,,Module-3
+FREQ-121,Task,Code Review for Cadastro de disciplinas,Task: Code Review,High,To Do,Ana Oliveira,Joao Santos,EPIC-3,Sprint 3,,task code-review,2026-01-28,2026-02-16,4h,,Module-3
+FREQ-122,Story,Cadastro de turmas com horarios,User story: Cadastro de turmas com horarios,High,In Progress,Beatriz Costa,Maria Silva,EPIC-3,Sprint 3,5,sprint-3 epic-3,2026-01-26,2026-02-16,40h,,Module-3
+FREQ-123,Task,Design UI/UX for Cadastro de turmas com horarios,Task: Design UI/UX,High,To Do,Juliana Souza,Joao Santos,EPIC-3,Sprint 3,,task design-ui/ux,2026-01-27,2026-02-16,4h,,Module-3
+FREQ-124,Task,Backend Implementation for Cadastro de turmas com horarios,Task: Backend Implementation,High,To Do,Carlos Mendes,Joao Santos,EPIC-3,Sprint 3,,task backend-implementation,2026-01-27,2026-02-16,12h,,Module-3
+FREQ-125,Task,Frontend Web Implementation for Cadastro de turmas com horarios,Task: Frontend Web Implementation,High,Done,Beatriz Costa,Joao Santos,EPIC-3,Sprint 3,,task frontend-web-implementation,2026-01-27,2026-02-16,10h,8h,Module-3
+FREQ-126,Task,Mobile Implementation for Cadastro de turmas com horarios,Task: Mobile Implementation,High,Done,Pedro Almeida,Joao Santos,EPIC-3,Sprint 3,,task mobile-implementation,2026-01-27,2026-02-16,10h,8h,Module-3
+FREQ-127,Task,Unit Tests for Cadastro de turmas com horarios,Task: Unit Tests,High,Done,Rafael Lima,Joao Santos,EPIC-3,Sprint 3,,task unit-tests,2026-01-27,2026-02-16,6h,5h,Module-3
+FREQ-128,Task,E2E Tests for Cadastro de turmas com horarios,Task: E2E Tests,High,In Progress,Rafael Lima,Joao Santos,EPIC-3,Sprint 3,,task e2e-tests,2026-01-27,2026-02-16,6h,,Module-3
+FREQ-129,Task,Code Review for Cadastro de turmas com horarios,Task: Code Review,High,To Do,Ana Oliveira,Joao Santos,EPIC-3,Sprint 3,,task code-review,2026-01-27,2026-02-16,4h,,Module-3
+FREQ-130,Story,Vincular alunos a turmas,User story: Vincular alunos a turmas,High,In Progress,Pedro Almeida,Maria Silva,EPIC-3,Sprint 3,3,sprint-3 epic-3,2026-01-25,2026-02-16,24h,,Module-3
+FREQ-131,Task,Design UI/UX for Vincular alunos a turmas,Task: Design UI/UX,High,In Progress,Juliana Souza,Joao Santos,EPIC-3,Sprint 3,,task design-ui/ux,2026-01-26,2026-02-16,4h,,Module-3
+FREQ-132,Task,Backend Implementation for Vincular alunos a turmas,Task: Backend Implementation,High,Done,Carlos Mendes,Joao Santos,EPIC-3,Sprint 3,,task backend-implementation,2026-01-26,2026-02-16,7h,6h,Module-3
+FREQ-133,Task,Frontend Web Implementation for Vincular alunos a turmas,Task: Frontend Web Implementation,High,In Progress,Beatriz Costa,Joao Santos,EPIC-3,Sprint 3,,task frontend-web-implementation,2026-01-26,2026-02-16,6h,,Module-3
+FREQ-134,Task,Unit Tests for Vincular alunos a turmas,Task: Unit Tests,High,Done,Rafael Lima,Joao Santos,EPIC-3,Sprint 3,,task unit-tests,2026-01-26,2026-02-16,3h,3h,Module-3
+FREQ-135,Task,Code Review for Vincular alunos a turmas,Task: Code Review,High,Done,Ana Oliveira,Joao Santos,EPIC-3,Sprint 3,,task code-review,2026-01-26,2026-02-16,4h,3h,Module-3
+FREQ-136,Story,Vincular professores a disciplinas,User story: Vincular professores a disciplinas,High,To Do,Carlos Mendes,Maria Silva,EPIC-3,Sprint 3,2,sprint-3 epic-3,2026-01-26,2026-02-16,16h,,Module-3
+FREQ-137,Task,Design UI/UX for Vincular professores a disciplinas,Task: Design UI/UX,High,To Do,Juliana Souza,Joao Santos,EPIC-3,Sprint 3,,task design-ui/ux,2026-01-27,2026-02-16,4h,,Module-3
+FREQ-138,Task,Backend Implementation for Vincular professores a disciplinas,Task: Backend Implementation,High,To Do,Carlos Mendes,Joao Santos,EPIC-3,Sprint 3,,task backend-implementation,2026-01-27,2026-02-16,4h,,Module-3
+FREQ-139,Task,Frontend Web Implementation for Vincular professores a disciplinas,Task: Frontend Web Implementation,High,To Do,Beatriz Costa,Joao Santos,EPIC-3,Sprint 3,,task frontend-web-implementation,2026-01-27,2026-02-16,4h,,Module-3
+FREQ-140,Task,Unit Tests for Vincular professores a disciplinas,Task: Unit Tests,High,To Do,Rafael Lima,Joao Santos,EPIC-3,Sprint 3,,task unit-tests,2026-01-27,2026-02-16,2h,,Module-3
+FREQ-141,Task,Code Review for Vincular professores a disciplinas,Task: Code Review,High,To Do,Ana Oliveira,Joao Santos,EPIC-3,Sprint 3,,task code-review,2026-01-27,2026-02-16,4h,,Module-3
+FREQ-142,Story,Calendario academico,User story: Calendario academico,Medium,To Do,Carlos Mendes,Maria Silva,EPIC-3,Sprint 3,5,sprint-3 epic-3,2026-01-26,2026-02-16,40h,,Module-3
+FREQ-143,Task,Design UI/UX for Calendario academico,Task: Design UI/UX,Medium,To Do,Juliana Souza,Joao Santos,EPIC-3,Sprint 3,,task design-ui/ux,2026-01-27,2026-02-16,4h,,Module-3
+FREQ-144,Task,Backend Implementation for Calendario academico,Task: Backend Implementation,Medium,To Do,Carlos Mendes,Joao Santos,EPIC-3,Sprint 3,,task backend-implementation,2026-01-27,2026-02-16,12h,,Module-3
+FREQ-145,Task,Frontend Web Implementation for Calendario academico,Task: Frontend Web Implementation,Medium,To Do,Beatriz Costa,Joao Santos,EPIC-3,Sprint 3,,task frontend-web-implementation,2026-01-27,2026-02-16,10h,,Module-3
+FREQ-146,Task,Mobile Implementation for Calendario academico,Task: Mobile Implementation,Medium,To Do,Pedro Almeida,Joao Santos,EPIC-3,Sprint 3,,task mobile-implementation,2026-01-27,2026-02-16,10h,,Module-3
+FREQ-147,Task,Unit Tests for Calendario academico,Task: Unit Tests,Medium,To Do,Rafael Lima,Joao Santos,EPIC-3,Sprint 3,,task unit-tests,2026-01-27,2026-02-16,6h,,Module-3
+FREQ-148,Task,E2E Tests for Calendario academico,Task: E2E Tests,Medium,To Do,Rafael Lima,Joao Santos,EPIC-3,Sprint 3,,task e2e-tests,2026-01-27,2026-02-16,6h,,Module-3
+FREQ-149,Task,Code Review for Calendario academico,Task: Code Review,Medium,To Do,Ana Oliveira,Joao Santos,EPIC-3,Sprint 3,,task code-review,2026-01-27,2026-02-16,4h,,Module-3
+FREQ-150,Story,Lista de alunos por turma,User story: Lista de alunos por turma,Medium,Done,Beatriz Costa,Maria Silva,EPIC-3,Sprint 3,2,sprint-3 epic-3,2026-01-29,2026-02-16,16h,12h,Module-3
+FREQ-151,Task,Design UI/UX for Lista de alunos por turma,Task: Design UI/UX,Medium,Done,Juliana Souza,Joao Santos,EPIC-3,Sprint 3,,task design-ui/ux,2026-01-30,2026-02-16,4h,3h,Module-3
+FREQ-152,Task,Backend Implementation for Lista de alunos por turma,Task: Backend Implementation,Medium,Done,Carlos Mendes,Joao Santos,EPIC-3,Sprint 3,,task backend-implementation,2026-01-30,2026-02-16,4h,4h,Module-3
+FREQ-153,Task,Frontend Web Implementation for Lista de alunos por turma,Task: Frontend Web Implementation,Medium,Done,Beatriz Costa,Joao Santos,EPIC-3,Sprint 3,,task frontend-web-implementation,2026-01-30,2026-02-16,4h,3h,Module-3
+FREQ-154,Task,Unit Tests for Lista de alunos por turma,Task: Unit Tests,Medium,Done,Rafael Lima,Joao Santos,EPIC-3,Sprint 3,,task unit-tests,2026-01-30,2026-02-16,2h,2h,Module-3
+FREQ-155,Task,Code Review for Lista de alunos por turma,Task: Code Review,Medium,Done,Ana Oliveira,Joao Santos,EPIC-3,Sprint 3,,task code-review,2026-01-30,2026-02-16,4h,3h,Module-3
+FREQ-156,Story,Importacao em lote CSV,User story: Importacao em lote CSV,Low,To Do,Carlos Mendes,Maria Silva,EPIC-3,Sprint 4,5,sprint-4 epic-3,2026-02-14,2026-03-02,40h,,Module-3
+FREQ-157,Task,Design UI/UX for Importacao em lote CSV,Task: Design UI/UX,Low,To Do,Juliana Souza,Joao Santos,EPIC-3,Sprint 4,,task design-ui/ux,2026-02-15,2026-03-02,4h,,Module-3
+FREQ-158,Task,Backend Implementation for Importacao em lote CSV,Task: Backend Implementation,Low,To Do,Carlos Mendes,Joao Santos,EPIC-3,Sprint 4,,task backend-implementation,2026-02-15,2026-03-02,12h,,Module-3
+FREQ-159,Task,Frontend Web Implementation for Importacao em lote CSV,Task: Frontend Web Implementation,Low,To Do,Beatriz Costa,Joao Santos,EPIC-3,Sprint 4,,task frontend-web-implementation,2026-02-15,2026-03-02,10h,,Module-3
+FREQ-160,Task,Mobile Implementation for Importacao em lote CSV,Task: Mobile Implementation,Low,To Do,Pedro Almeida,Joao Santos,EPIC-3,Sprint 4,,task mobile-implementation,2026-02-15,2026-03-02,10h,,Module-3
+FREQ-161,Task,Unit Tests for Importacao em lote CSV,Task: Unit Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-3,Sprint 4,,task unit-tests,2026-02-15,2026-03-02,6h,,Module-3
+FREQ-162,Task,E2E Tests for Importacao em lote CSV,Task: E2E Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-3,Sprint 4,,task e2e-tests,2026-02-15,2026-03-02,6h,,Module-3
+FREQ-163,Task,Code Review for Importacao em lote CSV,Task: Code Review,Low,To Do,Ana Oliveira,Joao Santos,EPIC-3,Sprint 4,,task code-review,2026-02-15,2026-03-02,4h,,Module-3
+FREQ-164,Story,Dashboard de frequencia aluno,User story: Dashboard de frequencia aluno,High,To Do,Beatriz Costa,Maria Silva,EPIC-4,Sprint 4,8,sprint-4 epic-4,2026-02-09,2026-03-02,64h,,Module-4
+FREQ-165,Task,Design UI/UX for Dashboard de frequencia aluno,Task: Design UI/UX,High,To Do,Juliana Souza,Joao Santos,EPIC-4,Sprint 4,,task design-ui/ux,2026-02-10,2026-03-02,4h,,Module-4
+FREQ-166,Task,Backend Implementation for Dashboard de frequencia aluno,Task: Backend Implementation,High,To Do,Carlos Mendes,Joao Santos,EPIC-4,Sprint 4,,task backend-implementation,2026-02-10,2026-03-02,19h,,Module-4
+FREQ-167,Task,Frontend Web Implementation for Dashboard de frequencia aluno,Task: Frontend Web Implementation,High,To Do,Beatriz Costa,Joao Santos,EPIC-4,Sprint 4,,task frontend-web-implementation,2026-02-10,2026-03-02,16h,,Module-4
+FREQ-168,Task,Mobile Implementation for Dashboard de frequencia aluno,Task: Mobile Implementation,High,To Do,Pedro Almeida,Joao Santos,EPIC-4,Sprint 4,,task mobile-implementation,2026-02-10,2026-03-02,16h,,Module-4
+FREQ-169,Task,Unit Tests for Dashboard de frequencia aluno,Task: Unit Tests,High,To Do,Rafael Lima,Joao Santos,EPIC-4,Sprint 4,,task unit-tests,2026-02-10,2026-03-02,9h,,Module-4
+FREQ-170,Task,E2E Tests for Dashboard de frequencia aluno,Task: E2E Tests,High,To Do,Rafael Lima,Joao Santos,EPIC-4,Sprint 4,,task e2e-tests,2026-02-10,2026-03-02,9h,,Module-4
+FREQ-171,Task,Code Review for Dashboard de frequencia aluno,Task: Code Review,High,To Do,Ana Oliveira,Joao Santos,EPIC-4,Sprint 4,,task code-review,2026-02-10,2026-03-02,4h,,Module-4
+FREQ-172,Task,Documentation for Dashboard de frequencia aluno,Task: Documentation,High,To Do,Joao Santos,Joao Santos,EPIC-4,Sprint 4,,task documentation,2026-02-10,2026-03-02,8h,,Module-4
+FREQ-173,Story,Dashboard do professor,User story: Dashboard do professor,High,To Do,Beatriz Costa,Maria Silva,EPIC-4,Sprint 4,8,sprint-4 epic-4,2026-02-13,2026-03-02,64h,,Module-4
+FREQ-174,Task,Design UI/UX for Dashboard do professor,Task: Design UI/UX,High,To Do,Juliana Souza,Joao Santos,EPIC-4,Sprint 4,,task design-ui/ux,2026-02-14,2026-03-02,4h,,Module-4
+FREQ-175,Task,Backend Implementation for Dashboard do professor,Task: Backend Implementation,High,To Do,Carlos Mendes,Joao Santos,EPIC-4,Sprint 4,,task backend-implementation,2026-02-14,2026-03-02,19h,,Module-4
+FREQ-176,Task,Frontend Web Implementation for Dashboard do professor,Task: Frontend Web Implementation,High,To Do,Beatriz Costa,Joao Santos,EPIC-4,Sprint 4,,task frontend-web-implementation,2026-02-14,2026-03-02,16h,,Module-4
+FREQ-177,Task,Mobile Implementation for Dashboard do professor,Task: Mobile Implementation,High,To Do,Pedro Almeida,Joao Santos,EPIC-4,Sprint 4,,task mobile-implementation,2026-02-14,2026-03-02,16h,,Module-4
+FREQ-178,Task,Unit Tests for Dashboard do professor,Task: Unit Tests,High,To Do,Rafael Lima,Joao Santos,EPIC-4,Sprint 4,,task unit-tests,2026-02-14,2026-03-02,9h,,Module-4
+FREQ-179,Task,E2E Tests for Dashboard do professor,Task: E2E Tests,High,To Do,Rafael Lima,Joao Santos,EPIC-4,Sprint 4,,task e2e-tests,2026-02-14,2026-03-02,9h,,Module-4
+FREQ-180,Task,Code Review for Dashboard do professor,Task: Code Review,High,To Do,Ana Oliveira,Joao Santos,EPIC-4,Sprint 4,,task code-review,2026-02-14,2026-03-02,4h,,Module-4
+FREQ-181,Task,Documentation for Dashboard do professor,Task: Documentation,High,To Do,Joao Santos,Joao Santos,EPIC-4,Sprint 4,,task documentation,2026-02-14,2026-03-02,8h,,Module-4
+FREQ-182,Story,Relatorio de faltas por disciplina,User story: Relatorio de faltas por disciplina,Medium,To Do,Carlos Mendes,Maria Silva,EPIC-4,Sprint 4,5,sprint-4 epic-4,2026-02-12,2026-03-02,40h,,Module-4
+FREQ-183,Task,Design UI/UX for Relatorio de faltas por disciplina,Task: Design UI/UX,Medium,To Do,Juliana Souza,Joao Santos,EPIC-4,Sprint 4,,task design-ui/ux,2026-02-13,2026-03-02,4h,,Module-4
+FREQ-184,Task,Backend Implementation for Relatorio de faltas por disciplina,Task: Backend Implementation,Medium,To Do,Carlos Mendes,Joao Santos,EPIC-4,Sprint 4,,task backend-implementation,2026-02-13,2026-03-02,12h,,Module-4
+FREQ-185,Task,Frontend Web Implementation for Relatorio de faltas por disciplina,Task: Frontend Web Implementation,Medium,To Do,Beatriz Costa,Joao Santos,EPIC-4,Sprint 4,,task frontend-web-implementation,2026-02-13,2026-03-02,10h,,Module-4
+FREQ-186,Task,Mobile Implementation for Relatorio de faltas por disciplina,Task: Mobile Implementation,Medium,To Do,Pedro Almeida,Joao Santos,EPIC-4,Sprint 4,,task mobile-implementation,2026-02-13,2026-03-02,10h,,Module-4
+FREQ-187,Task,Unit Tests for Relatorio de faltas por disciplina,Task: Unit Tests,Medium,To Do,Rafael Lima,Joao Santos,EPIC-4,Sprint 4,,task unit-tests,2026-02-13,2026-03-02,6h,,Module-4
+FREQ-188,Task,E2E Tests for Relatorio de faltas por disciplina,Task: E2E Tests,Medium,To Do,Rafael Lima,Joao Santos,EPIC-4,Sprint 4,,task e2e-tests,2026-02-13,2026-03-02,6h,,Module-4
+FREQ-189,Task,Code Review for Relatorio de faltas por disciplina,Task: Code Review,Medium,To Do,Ana Oliveira,Joao Santos,EPIC-4,Sprint 4,,task code-review,2026-02-13,2026-03-02,4h,,Module-4
+FREQ-190,Story,Graficos de presenca mensal,User story: Graficos de presenca mensal,Medium,To Do,Carlos Mendes,Maria Silva,EPIC-4,Sprint 4,5,sprint-4 epic-4,2026-02-09,2026-03-02,40h,,Module-4
+FREQ-191,Task,Design UI/UX for Graficos de presenca mensal,Task: Design UI/UX,Medium,To Do,Juliana Souza,Joao Santos,EPIC-4,Sprint 4,,task design-ui/ux,2026-02-10,2026-03-02,4h,,Module-4
+FREQ-192,Task,Backend Implementation for Graficos de presenca mensal,Task: Backend Implementation,Medium,To Do,Carlos Mendes,Joao Santos,EPIC-4,Sprint 4,,task backend-implementation,2026-02-10,2026-03-02,12h,,Module-4
+FREQ-193,Task,Frontend Web Implementation for Graficos de presenca mensal,Task: Frontend Web Implementation,Medium,To Do,Beatriz Costa,Joao Santos,EPIC-4,Sprint 4,,task frontend-web-implementation,2026-02-10,2026-03-02,10h,,Module-4
+FREQ-194,Task,Mobile Implementation for Graficos de presenca mensal,Task: Mobile Implementation,Medium,To Do,Pedro Almeida,Joao Santos,EPIC-4,Sprint 4,,task mobile-implementation,2026-02-10,2026-03-02,10h,,Module-4
+FREQ-195,Task,Unit Tests for Graficos de presenca mensal,Task: Unit Tests,Medium,To Do,Rafael Lima,Joao Santos,EPIC-4,Sprint 4,,task unit-tests,2026-02-10,2026-03-02,6h,,Module-4
+FREQ-196,Task,E2E Tests for Graficos de presenca mensal,Task: E2E Tests,Medium,To Do,Rafael Lima,Joao Santos,EPIC-4,Sprint 4,,task e2e-tests,2026-02-10,2026-03-02,6h,,Module-4
+FREQ-197,Task,Code Review for Graficos de presenca mensal,Task: Code Review,Medium,To Do,Ana Oliveira,Joao Santos,EPIC-4,Sprint 4,,task code-review,2026-02-10,2026-03-02,4h,,Module-4
+FREQ-198,Story,Exportar relatorio PDF,User story: Exportar relatorio PDF,Medium,To Do,Carlos Mendes,Maria Silva,EPIC-4,Sprint 4,3,sprint-4 epic-4,2026-02-10,2026-03-02,24h,,Module-4
+FREQ-199,Task,Design UI/UX for Exportar relatorio PDF,Task: Design UI/UX,Medium,To Do,Juliana Souza,Joao Santos,EPIC-4,Sprint 4,,task design-ui/ux,2026-02-11,2026-03-02,4h,,Module-4
+FREQ-200,Task,Backend Implementation for Exportar relatorio PDF,Task: Backend Implementation,Medium,To Do,Carlos Mendes,Joao Santos,EPIC-4,Sprint 4,,task backend-implementation,2026-02-11,2026-03-02,7h,,Module-4
+FREQ-201,Task,Frontend Web Implementation for Exportar relatorio PDF,Task: Frontend Web Implementation,Medium,To Do,Beatriz Costa,Joao Santos,EPIC-4,Sprint 4,,task frontend-web-implementation,2026-02-11,2026-03-02,6h,,Module-4
+FREQ-202,Task,Unit Tests for Exportar relatorio PDF,Task: Unit Tests,Medium,To Do,Rafael Lima,Joao Santos,EPIC-4,Sprint 4,,task unit-tests,2026-02-11,2026-03-02,3h,,Module-4
+FREQ-203,Task,Code Review for Exportar relatorio PDF,Task: Code Review,Medium,To Do,Ana Oliveira,Joao Santos,EPIC-4,Sprint 4,,task code-review,2026-02-11,2026-03-02,4h,,Module-4
+FREQ-204,Story,Exportar relatorio Excel,User story: Exportar relatorio Excel,Low,To Do,Pedro Almeida,Maria Silva,EPIC-4,Sprint 5,3,sprint-5 epic-4,2026-02-22,2026-03-16,24h,,Module-4
+FREQ-205,Task,Design UI/UX for Exportar relatorio Excel,Task: Design UI/UX,Low,To Do,Juliana Souza,Joao Santos,EPIC-4,Sprint 5,,task design-ui/ux,2026-02-23,2026-03-16,4h,,Module-4
+FREQ-206,Task,Backend Implementation for Exportar relatorio Excel,Task: Backend Implementation,Low,To Do,Carlos Mendes,Joao Santos,EPIC-4,Sprint 5,,task backend-implementation,2026-02-23,2026-03-16,7h,,Module-4
+FREQ-207,Task,Frontend Web Implementation for Exportar relatorio Excel,Task: Frontend Web Implementation,Low,To Do,Beatriz Costa,Joao Santos,EPIC-4,Sprint 5,,task frontend-web-implementation,2026-02-23,2026-03-16,6h,,Module-4
+FREQ-208,Task,Unit Tests for Exportar relatorio Excel,Task: Unit Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-4,Sprint 5,,task unit-tests,2026-02-23,2026-03-16,3h,,Module-4
+FREQ-209,Task,Code Review for Exportar relatorio Excel,Task: Code Review,Low,To Do,Ana Oliveira,Joao Santos,EPIC-4,Sprint 5,,task code-review,2026-02-23,2026-03-16,4h,,Module-4
+FREQ-210,Story,Dashboard admin com analytics,User story: Dashboard admin com analytics,Low,To Do,Beatriz Costa,Maria Silva,EPIC-4,Sprint 5,8,sprint-5 epic-4,2026-02-23,2026-03-16,64h,,Module-4
+FREQ-211,Task,Design UI/UX for Dashboard admin com analytics,Task: Design UI/UX,Low,To Do,Juliana Souza,Joao Santos,EPIC-4,Sprint 5,,task design-ui/ux,2026-02-24,2026-03-16,4h,,Module-4
+FREQ-212,Task,Backend Implementation for Dashboard admin com analytics,Task: Backend Implementation,Low,To Do,Carlos Mendes,Joao Santos,EPIC-4,Sprint 5,,task backend-implementation,2026-02-24,2026-03-16,19h,,Module-4
+FREQ-213,Task,Frontend Web Implementation for Dashboard admin com analytics,Task: Frontend Web Implementation,Low,To Do,Beatriz Costa,Joao Santos,EPIC-4,Sprint 5,,task frontend-web-implementation,2026-02-24,2026-03-16,16h,,Module-4
+FREQ-214,Task,Mobile Implementation for Dashboard admin com analytics,Task: Mobile Implementation,Low,To Do,Pedro Almeida,Joao Santos,EPIC-4,Sprint 5,,task mobile-implementation,2026-02-24,2026-03-16,16h,,Module-4
+FREQ-215,Task,Unit Tests for Dashboard admin com analytics,Task: Unit Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-4,Sprint 5,,task unit-tests,2026-02-24,2026-03-16,9h,,Module-4
+FREQ-216,Task,E2E Tests for Dashboard admin com analytics,Task: E2E Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-4,Sprint 5,,task e2e-tests,2026-02-24,2026-03-16,9h,,Module-4
+FREQ-217,Task,Code Review for Dashboard admin com analytics,Task: Code Review,Low,To Do,Ana Oliveira,Joao Santos,EPIC-4,Sprint 5,,task code-review,2026-02-24,2026-03-16,4h,,Module-4
+FREQ-218,Task,Documentation for Dashboard admin com analytics,Task: Documentation,Low,To Do,Joao Santos,Joao Santos,EPIC-4,Sprint 5,,task documentation,2026-02-24,2026-03-16,8h,,Module-4
+FREQ-219,Story,Push quando aula comeca,User story: Push quando aula comeca,Medium,To Do,Carlos Mendes,Maria Silva,EPIC-5,Sprint 5,5,sprint-5 epic-5,2026-02-26,2026-03-16,40h,,Module-5
+FREQ-220,Task,Design UI/UX for Push quando aula comeca,Task: Design UI/UX,Medium,To Do,Juliana Souza,Joao Santos,EPIC-5,Sprint 5,,task design-ui/ux,2026-02-27,2026-03-16,4h,,Module-5
+FREQ-221,Task,Backend Implementation for Push quando aula comeca,Task: Backend Implementation,Medium,To Do,Carlos Mendes,Joao Santos,EPIC-5,Sprint 5,,task backend-implementation,2026-02-27,2026-03-16,12h,,Module-5
+FREQ-222,Task,Frontend Web Implementation for Push quando aula comeca,Task: Frontend Web Implementation,Medium,To Do,Beatriz Costa,Joao Santos,EPIC-5,Sprint 5,,task frontend-web-implementation,2026-02-27,2026-03-16,10h,,Module-5
+FREQ-223,Task,Mobile Implementation for Push quando aula comeca,Task: Mobile Implementation,Medium,To Do,Pedro Almeida,Joao Santos,EPIC-5,Sprint 5,,task mobile-implementation,2026-02-27,2026-03-16,10h,,Module-5
+FREQ-224,Task,Unit Tests for Push quando aula comeca,Task: Unit Tests,Medium,To Do,Rafael Lima,Joao Santos,EPIC-5,Sprint 5,,task unit-tests,2026-02-27,2026-03-16,6h,,Module-5
+FREQ-225,Task,E2E Tests for Push quando aula comeca,Task: E2E Tests,Medium,To Do,Rafael Lima,Joao Santos,EPIC-5,Sprint 5,,task e2e-tests,2026-02-27,2026-03-16,6h,,Module-5
+FREQ-226,Task,Code Review for Push quando aula comeca,Task: Code Review,Medium,To Do,Ana Oliveira,Joao Santos,EPIC-5,Sprint 5,,task code-review,2026-02-27,2026-03-16,4h,,Module-5
+FREQ-227,Story,Email resumo semanal,User story: Email resumo semanal,Medium,To Do,Beatriz Costa,Maria Silva,EPIC-5,Sprint 5,3,sprint-5 epic-5,2026-02-26,2026-03-16,24h,,Module-5
+FREQ-228,Task,Design UI/UX for Email resumo semanal,Task: Design UI/UX,Medium,To Do,Juliana Souza,Joao Santos,EPIC-5,Sprint 5,,task design-ui/ux,2026-02-27,2026-03-16,4h,,Module-5
+FREQ-229,Task,Backend Implementation for Email resumo semanal,Task: Backend Implementation,Medium,To Do,Carlos Mendes,Joao Santos,EPIC-5,Sprint 5,,task backend-implementation,2026-02-27,2026-03-16,7h,,Module-5
+FREQ-230,Task,Frontend Web Implementation for Email resumo semanal,Task: Frontend Web Implementation,Medium,To Do,Beatriz Costa,Joao Santos,EPIC-5,Sprint 5,,task frontend-web-implementation,2026-02-27,2026-03-16,6h,,Module-5
+FREQ-231,Task,Unit Tests for Email resumo semanal,Task: Unit Tests,Medium,To Do,Rafael Lima,Joao Santos,EPIC-5,Sprint 5,,task unit-tests,2026-02-27,2026-03-16,3h,,Module-5
+FREQ-232,Task,Code Review for Email resumo semanal,Task: Code Review,Medium,To Do,Ana Oliveira,Joao Santos,EPIC-5,Sprint 5,,task code-review,2026-02-27,2026-03-16,4h,,Module-5
+FREQ-233,Story,Alerta limite de faltas,User story: Alerta limite de faltas,High,To Do,Carlos Mendes,Maria Silva,EPIC-5,Sprint 5,5,sprint-5 epic-5,2026-02-23,2026-03-16,40h,,Module-5
+FREQ-234,Task,Design UI/UX for Alerta limite de faltas,Task: Design UI/UX,High,To Do,Juliana Souza,Joao Santos,EPIC-5,Sprint 5,,task design-ui/ux,2026-02-24,2026-03-16,4h,,Module-5
+FREQ-235,Task,Backend Implementation for Alerta limite de faltas,Task: Backend Implementation,High,To Do,Carlos Mendes,Joao Santos,EPIC-5,Sprint 5,,task backend-implementation,2026-02-24,2026-03-16,12h,,Module-5
+FREQ-236,Task,Frontend Web Implementation for Alerta limite de faltas,Task: Frontend Web Implementation,High,To Do,Beatriz Costa,Joao Santos,EPIC-5,Sprint 5,,task frontend-web-implementation,2026-02-24,2026-03-16,10h,,Module-5
+FREQ-237,Task,Mobile Implementation for Alerta limite de faltas,Task: Mobile Implementation,High,To Do,Pedro Almeida,Joao Santos,EPIC-5,Sprint 5,,task mobile-implementation,2026-02-24,2026-03-16,10h,,Module-5
+FREQ-238,Task,Unit Tests for Alerta limite de faltas,Task: Unit Tests,High,To Do,Rafael Lima,Joao Santos,EPIC-5,Sprint 5,,task unit-tests,2026-02-24,2026-03-16,6h,,Module-5
+FREQ-239,Task,E2E Tests for Alerta limite de faltas,Task: E2E Tests,High,To Do,Rafael Lima,Joao Santos,EPIC-5,Sprint 5,,task e2e-tests,2026-02-24,2026-03-16,6h,,Module-5
+FREQ-240,Task,Code Review for Alerta limite de faltas,Task: Code Review,High,To Do,Ana Oliveira,Joao Santos,EPIC-5,Sprint 5,,task code-review,2026-02-24,2026-03-16,4h,,Module-5
+FREQ-241,Story,SMS para responsaveis,User story: SMS para responsaveis,Low,To Do,Carlos Mendes,Maria Silva,EPIC-5,Sprint 5,8,sprint-5 epic-5,2026-02-22,2026-03-16,64h,,Module-5
+FREQ-242,Task,Design UI/UX for SMS para responsaveis,Task: Design UI/UX,Low,To Do,Juliana Souza,Joao Santos,EPIC-5,Sprint 5,,task design-ui/ux,2026-02-23,2026-03-16,4h,,Module-5
+FREQ-243,Task,Backend Implementation for SMS para responsaveis,Task: Backend Implementation,Low,To Do,Carlos Mendes,Joao Santos,EPIC-5,Sprint 5,,task backend-implementation,2026-02-23,2026-03-16,19h,,Module-5
+FREQ-244,Task,Frontend Web Implementation for SMS para responsaveis,Task: Frontend Web Implementation,Low,To Do,Beatriz Costa,Joao Santos,EPIC-5,Sprint 5,,task frontend-web-implementation,2026-02-23,2026-03-16,16h,,Module-5
+FREQ-245,Task,Mobile Implementation for SMS para responsaveis,Task: Mobile Implementation,Low,To Do,Pedro Almeida,Joao Santos,EPIC-5,Sprint 5,,task mobile-implementation,2026-02-23,2026-03-16,16h,,Module-5
+FREQ-246,Task,Unit Tests for SMS para responsaveis,Task: Unit Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-5,Sprint 5,,task unit-tests,2026-02-23,2026-03-16,9h,,Module-5
+FREQ-247,Task,E2E Tests for SMS para responsaveis,Task: E2E Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-5,Sprint 5,,task e2e-tests,2026-02-23,2026-03-16,9h,,Module-5
+FREQ-248,Task,Code Review for SMS para responsaveis,Task: Code Review,Low,To Do,Ana Oliveira,Joao Santos,EPIC-5,Sprint 5,,task code-review,2026-02-23,2026-03-16,4h,,Module-5
+FREQ-249,Task,Documentation for SMS para responsaveis,Task: Documentation,Low,To Do,Joao Santos,Joao Santos,EPIC-5,Sprint 5,,task documentation,2026-02-23,2026-03-16,8h,,Module-5
+FREQ-250,Story,Notificacao cancelamento aula,User story: Notificacao cancelamento aula,Medium,To Do,Carlos Mendes,Maria Silva,EPIC-5,Sprint 5,2,sprint-5 epic-5,2026-02-26,2026-03-16,16h,,Module-5
+FREQ-251,Task,Design UI/UX for Notificacao cancelamento aula,Task: Design UI/UX,Medium,To Do,Juliana Souza,Joao Santos,EPIC-5,Sprint 5,,task design-ui/ux,2026-02-27,2026-03-16,4h,,Module-5
+FREQ-252,Task,Backend Implementation for Notificacao cancelamento aula,Task: Backend Implementation,Medium,To Do,Carlos Mendes,Joao Santos,EPIC-5,Sprint 5,,task backend-implementation,2026-02-27,2026-03-16,4h,,Module-5
+FREQ-253,Task,Frontend Web Implementation for Notificacao cancelamento aula,Task: Frontend Web Implementation,Medium,To Do,Beatriz Costa,Joao Santos,EPIC-5,Sprint 5,,task frontend-web-implementation,2026-02-27,2026-03-16,4h,,Module-5
+FREQ-254,Task,Unit Tests for Notificacao cancelamento aula,Task: Unit Tests,Medium,To Do,Rafael Lima,Joao Santos,EPIC-5,Sprint 5,,task unit-tests,2026-02-27,2026-03-16,2h,,Module-5
+FREQ-255,Task,Code Review for Notificacao cancelamento aula,Task: Code Review,Medium,To Do,Ana Oliveira,Joao Santos,EPIC-5,Sprint 5,,task code-review,2026-02-27,2026-03-16,4h,,Module-5
+FREQ-256,Story,API REST para integracao,User story: API REST para integracao,Medium,To Do,Carlos Mendes,Maria Silva,EPIC-6,Sprint 6,8,sprint-6 epic-6,2026-03-11,2026-03-30,64h,,Module-6
+FREQ-257,Task,Design UI/UX for API REST para integracao,Task: Design UI/UX,Medium,To Do,Juliana Souza,Joao Santos,EPIC-6,Sprint 6,,task design-ui/ux,2026-03-12,2026-03-30,4h,,Module-6
+FREQ-258,Task,Backend Implementation for API REST para integracao,Task: Backend Implementation,Medium,To Do,Carlos Mendes,Joao Santos,EPIC-6,Sprint 6,,task backend-implementation,2026-03-12,2026-03-30,19h,,Module-6
+FREQ-259,Task,Frontend Web Implementation for API REST para integracao,Task: Frontend Web Implementation,Medium,To Do,Beatriz Costa,Joao Santos,EPIC-6,Sprint 6,,task frontend-web-implementation,2026-03-12,2026-03-30,16h,,Module-6
+FREQ-260,Task,Mobile Implementation for API REST para integracao,Task: Mobile Implementation,Medium,To Do,Pedro Almeida,Joao Santos,EPIC-6,Sprint 6,,task mobile-implementation,2026-03-12,2026-03-30,16h,,Module-6
+FREQ-261,Task,Unit Tests for API REST para integracao,Task: Unit Tests,Medium,To Do,Rafael Lima,Joao Santos,EPIC-6,Sprint 6,,task unit-tests,2026-03-12,2026-03-30,9h,,Module-6
+FREQ-262,Task,E2E Tests for API REST para integracao,Task: E2E Tests,Medium,To Do,Rafael Lima,Joao Santos,EPIC-6,Sprint 6,,task e2e-tests,2026-03-12,2026-03-30,9h,,Module-6
+FREQ-263,Task,Code Review for API REST para integracao,Task: Code Review,Medium,To Do,Ana Oliveira,Joao Santos,EPIC-6,Sprint 6,,task code-review,2026-03-12,2026-03-30,4h,,Module-6
+FREQ-264,Task,Documentation for API REST para integracao,Task: Documentation,Medium,To Do,Joao Santos,Joao Santos,EPIC-6,Sprint 6,,task documentation,2026-03-12,2026-03-30,8h,,Module-6
+FREQ-265,Story,Integracao com Moodle,User story: Integracao com Moodle,Low,To Do,Beatriz Costa,Maria Silva,EPIC-6,Sprint 6,13,sprint-6 epic-6,2026-03-14,2026-03-30,104h,,Module-6
+FREQ-266,Task,Design UI/UX for Integracao com Moodle,Task: Design UI/UX,Low,To Do,Juliana Souza,Joao Santos,EPIC-6,Sprint 6,,task design-ui/ux,2026-03-15,2026-03-30,4h,,Module-6
+FREQ-267,Task,Backend Implementation for Integracao com Moodle,Task: Backend Implementation,Low,To Do,Carlos Mendes,Joao Santos,EPIC-6,Sprint 6,,task backend-implementation,2026-03-15,2026-03-30,31h,,Module-6
+FREQ-268,Task,Frontend Web Implementation for Integracao com Moodle,Task: Frontend Web Implementation,Low,To Do,Beatriz Costa,Joao Santos,EPIC-6,Sprint 6,,task frontend-web-implementation,2026-03-15,2026-03-30,26h,,Module-6
+FREQ-269,Task,Mobile Implementation for Integracao com Moodle,Task: Mobile Implementation,Low,To Do,Pedro Almeida,Joao Santos,EPIC-6,Sprint 6,,task mobile-implementation,2026-03-15,2026-03-30,26h,,Module-6
+FREQ-270,Task,Unit Tests for Integracao com Moodle,Task: Unit Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-6,Sprint 6,,task unit-tests,2026-03-15,2026-03-30,15h,,Module-6
+FREQ-271,Task,E2E Tests for Integracao com Moodle,Task: E2E Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-6,Sprint 6,,task e2e-tests,2026-03-15,2026-03-30,15h,,Module-6
+FREQ-272,Task,Code Review for Integracao com Moodle,Task: Code Review,Low,To Do,Ana Oliveira,Joao Santos,EPIC-6,Sprint 6,,task code-review,2026-03-15,2026-03-30,4h,,Module-6
+FREQ-273,Task,Documentation for Integracao com Moodle,Task: Documentation,Low,To Do,Joao Santos,Joao Santos,EPIC-6,Sprint 6,,task documentation,2026-03-15,2026-03-30,8h,,Module-6
+FREQ-274,Story,Sincronizacao com SIA,User story: Sincronizacao com SIA,Low,To Do,Carlos Mendes,Maria Silva,EPIC-6,Sprint 6,13,sprint-6 epic-6,2026-03-07,2026-03-30,104h,,Module-6
+FREQ-275,Task,Design UI/UX for Sincronizacao com SIA,Task: Design UI/UX,Low,To Do,Juliana Souza,Joao Santos,EPIC-6,Sprint 6,,task design-ui/ux,2026-03-08,2026-03-30,4h,,Module-6
+FREQ-276,Task,Backend Implementation for Sincronizacao com SIA,Task: Backend Implementation,Low,To Do,Carlos Mendes,Joao Santos,EPIC-6,Sprint 6,,task backend-implementation,2026-03-08,2026-03-30,31h,,Module-6
+FREQ-277,Task,Frontend Web Implementation for Sincronizacao com SIA,Task: Frontend Web Implementation,Low,To Do,Beatriz Costa,Joao Santos,EPIC-6,Sprint 6,,task frontend-web-implementation,2026-03-08,2026-03-30,26h,,Module-6
+FREQ-278,Task,Mobile Implementation for Sincronizacao com SIA,Task: Mobile Implementation,Low,To Do,Pedro Almeida,Joao Santos,EPIC-6,Sprint 6,,task mobile-implementation,2026-03-08,2026-03-30,26h,,Module-6
+FREQ-279,Task,Unit Tests for Sincronizacao com SIA,Task: Unit Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-6,Sprint 6,,task unit-tests,2026-03-08,2026-03-30,15h,,Module-6
+FREQ-280,Task,E2E Tests for Sincronizacao com SIA,Task: E2E Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-6,Sprint 6,,task e2e-tests,2026-03-08,2026-03-30,15h,,Module-6
+FREQ-281,Task,Code Review for Sincronizacao com SIA,Task: Code Review,Low,To Do,Ana Oliveira,Joao Santos,EPIC-6,Sprint 6,,task code-review,2026-03-08,2026-03-30,4h,,Module-6
+FREQ-282,Task,Documentation for Sincronizacao com SIA,Task: Documentation,Low,To Do,Joao Santos,Joao Santos,EPIC-6,Sprint 6,,task documentation,2026-03-08,2026-03-30,8h,,Module-6
+FREQ-283,Story,Webhook eventos de presenca,User story: Webhook eventos de presenca,Low,To Do,Beatriz Costa,Maria Silva,EPIC-6,Sprint 7,5,sprint-7 epic-6,2026-03-24,2026-04-13,40h,,Module-6
+FREQ-284,Task,Design UI/UX for Webhook eventos de presenca,Task: Design UI/UX,Low,To Do,Juliana Souza,Joao Santos,EPIC-6,Sprint 7,,task design-ui/ux,2026-03-25,2026-04-13,4h,,Module-6
+FREQ-285,Task,Backend Implementation for Webhook eventos de presenca,Task: Backend Implementation,Low,To Do,Carlos Mendes,Joao Santos,EPIC-6,Sprint 7,,task backend-implementation,2026-03-25,2026-04-13,12h,,Module-6
+FREQ-286,Task,Frontend Web Implementation for Webhook eventos de presenca,Task: Frontend Web Implementation,Low,To Do,Beatriz Costa,Joao Santos,EPIC-6,Sprint 7,,task frontend-web-implementation,2026-03-25,2026-04-13,10h,,Module-6
+FREQ-287,Task,Mobile Implementation for Webhook eventos de presenca,Task: Mobile Implementation,Low,To Do,Pedro Almeida,Joao Santos,EPIC-6,Sprint 7,,task mobile-implementation,2026-03-25,2026-04-13,10h,,Module-6
+FREQ-288,Task,Unit Tests for Webhook eventos de presenca,Task: Unit Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-6,Sprint 7,,task unit-tests,2026-03-25,2026-04-13,6h,,Module-6
+FREQ-289,Task,E2E Tests for Webhook eventos de presenca,Task: E2E Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-6,Sprint 7,,task e2e-tests,2026-03-25,2026-04-13,6h,,Module-6
+FREQ-290,Task,Code Review for Webhook eventos de presenca,Task: Code Review,Low,To Do,Ana Oliveira,Joao Santos,EPIC-6,Sprint 7,,task code-review,2026-03-25,2026-04-13,4h,,Module-6
+FREQ-291,Story,Export Google Sheets,User story: Export Google Sheets,Low,To Do,Beatriz Costa,Maria Silva,EPIC-6,Sprint 7,5,sprint-7 epic-6,2026-03-26,2026-04-13,40h,,Module-6
+FREQ-292,Task,Design UI/UX for Export Google Sheets,Task: Design UI/UX,Low,To Do,Juliana Souza,Joao Santos,EPIC-6,Sprint 7,,task design-ui/ux,2026-03-27,2026-04-13,4h,,Module-6
+FREQ-293,Task,Backend Implementation for Export Google Sheets,Task: Backend Implementation,Low,To Do,Carlos Mendes,Joao Santos,EPIC-6,Sprint 7,,task backend-implementation,2026-03-27,2026-04-13,12h,,Module-6
+FREQ-294,Task,Frontend Web Implementation for Export Google Sheets,Task: Frontend Web Implementation,Low,To Do,Beatriz Costa,Joao Santos,EPIC-6,Sprint 7,,task frontend-web-implementation,2026-03-27,2026-04-13,10h,,Module-6
+FREQ-295,Task,Mobile Implementation for Export Google Sheets,Task: Mobile Implementation,Low,To Do,Pedro Almeida,Joao Santos,EPIC-6,Sprint 7,,task mobile-implementation,2026-03-27,2026-04-13,10h,,Module-6
+FREQ-296,Task,Unit Tests for Export Google Sheets,Task: Unit Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-6,Sprint 7,,task unit-tests,2026-03-27,2026-04-13,6h,,Module-6
+FREQ-297,Task,E2E Tests for Export Google Sheets,Task: E2E Tests,Low,To Do,Rafael Lima,Joao Santos,EPIC-6,Sprint 7,,task e2e-tests,2026-03-27,2026-04-13,6h,,Module-6
+FREQ-298,Task,Code Review for Export Google Sheets,Task: Code Review,Low,To Do,Ana Oliveira,Joao Santos,EPIC-6,Sprint 7,,task code-review,2026-03-27,2026-04-13,4h,,Module-6
+FREQ-299,Bug,QR Code nao expira,Bug: QR Code nao expira,High,Done,Pedro Almeida,Rafael Lima,EPIC-2,Sprint 2,2,bug sprint-2,2026-01-21,2026-02-02,8h,6h,Module-2
+FREQ-300,Bug,Crash login Google iOS,Bug: Crash login Google iOS,Highest,In Progress,Pedro Almeida,Rafael Lima,EPIC-1,Sprint 2,1,bug sprint-2,2026-01-21,2026-02-02,4h,3h,Module-1
+FREQ-301,Bug,Geolocalizacao imprecisa,Bug: Geolocalizacao imprecisa,Medium,In Progress,Carlos Mendes,Rafael Lima,EPIC-2,Sprint 3,3,bug sprint-3,2026-02-04,2026-02-16,12h,9h,Module-2
+FREQ-302,Bug,Dashboard lento com muitos dados,Bug: Dashboard lento com muitos dados,High,In Progress,Beatriz Costa,Rafael Lima,EPIC-4,Sprint 2,2,bug sprint-2,2026-01-27,2026-02-02,8h,6h,Module-4
+FREQ-303,Bug,Push notification duplicada,Bug: Push notification duplicada,Medium,In Progress,Carlos Mendes,Rafael Lima,EPIC-5,Sprint 4,1,bug sprint-4,2026-02-19,2026-03-02,4h,3h,Module-5
+FREQ-304,Bug,PDF corta texto longo,Bug: PDF corta texto longo,Low,In Progress,Beatriz Costa,Rafael Lima,EPIC-4,Sprint 2,1,bug sprint-2,2026-01-21,2026-02-02,4h,3h,Module-4
+FREQ-305,Bug,Sync lenta Moodle,Bug: Sync lenta Moodle,Medium,Done,Carlos Mendes,Rafael Lima,EPIC-6,Sprint 3,3,bug sprint-3,2026-02-04,2026-02-16,12h,9h,Module-6
+FREQ-306,Bug,Interface desalinhada tablets,Bug: Interface desalinhada tablets,Low,Done,Juliana Souza,Rafael Lima,EPIC-2,Sprint 3,2,bug sprint-3,2026-02-10,2026-02-16,8h,6h,Module-2
